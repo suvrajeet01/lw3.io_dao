@@ -224,7 +224,197 @@ event - compiled client and server successfully in 2.4s (159 modules)
 wait  - compiling / (client and server)...
 event - compiled client and server successfully in 7.9s (330 modules)
 
-C:\suv\lw3.io_dao\dao-tutorial\frontend>
+C:\suv\lw3.io_dao\dao-tutorial\frontend>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../contract-addresses
+        ../
+        ../../goerlifaucet.txt
+        ../../operation_operating-the-app.txt
+        ../../terminal-commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\suv\lw3.io_dao\dao-tutorial\frontend>cd ../..
+
+C:\suv\lw3.io_dao>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        contract-addresses
+        dao-tutorial/
+        goerlifaucet.txt
+        operation_operating-the-app.txt
+        terminal-commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\suv\lw3.io_dao>git add .
+warning: LF will be replaced by CRLF in dao-tutorial/1.git.clone/HEAD.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in dao-tutorial/1.git.clone/config.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in dao-tutorial/1.git.clone/description.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in dao-tutorial/1.git.clone/hooks/applypatch-msg.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in dao-tutorial/1.git.clone/hooks/commit-msg.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in dao-tutorial/1.git.clone/hooks/fsmonitor-watchman.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in dao-tutorial/1.git.clone/hooks/post-update.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in dao-tutorial/1.git.clone/hooks/pre-applypatch.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in dao-tutorial/1.git.clone/hooks/pre-commit.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in dao-tutorial/1.git.clone/hooks/pre-merge-commit.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in dao-tutorial/1.git.clone/hooks/pre-push.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in dao-tutorial/1.git.clone/hooks/pre-rebase.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in dao-tutorial/1.git.clone/hooks/pre-receive.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in dao-tutorial/1.git.clone/hooks/prepare-commit-msg.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in dao-tutorial/1.git.clone/hooks/push-to-checkout.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in dao-tutorial/1.git.clone/hooks/update.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in dao-tutorial/1.git.clone/info/exclude.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in dao-tutorial/package-lock.json.
+The file will have its original line endings in your working directory
+
+C:\suv\lw3.io_dao>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   contract-addresses
+        new file:   dao-tutorial/.gitignore
+        new file:   dao-tutorial/1.git.clone/HEAD
+        new file:   dao-tutorial/1.git.clone/config
+        new file:   dao-tutorial/1.git.clone/description
+        new file:   dao-tutorial/1.git.clone/hooks/applypatch-msg.sample
+        new file:   dao-tutorial/1.git.clone/hooks/commit-msg.sample
+        new file:   dao-tutorial/1.git.clone/hooks/fsmonitor-watchman.sample
+        new file:   dao-tutorial/1.git.clone/hooks/post-update.sample
+        new file:   dao-tutorial/1.git.clone/hooks/pre-applypatch.sample
+        new file:   dao-tutorial/1.git.clone/hooks/pre-commit.sample
+        new file:   dao-tutorial/1.git.clone/hooks/pre-merge-commit.sample
+        new file:   dao-tutorial/1.git.clone/hooks/pre-push.sample
+        new file:   dao-tutorial/1.git.clone/hooks/pre-rebase.sample
+        new file:   dao-tutorial/1.git.clone/hooks/pre-receive.sample
+        new file:   dao-tutorial/1.git.clone/hooks/prepare-commit-msg.sample
+        new file:   dao-tutorial/1.git.clone/hooks/push-to-checkout.sample
+        new file:   dao-tutorial/1.git.clone/hooks/update.sample
+        new file:   dao-tutorial/1.git.clone/info/exclude
+        new file:   dao-tutorial/backend/.gitignore
+        new file:   dao-tutorial/backend/constants.js
+        new file:   dao-tutorial/backend/contracts/CryptoDevsDAO.sol
+        new file:   dao-tutorial/backend/contracts/FakeNFTMarketplace.sol
+        new file:   dao-tutorial/backend/contracts/Lock.sol
+        new file:   dao-tutorial/backend/hardhat.config.js
+        new file:   dao-tutorial/backend/package.json
+        new file:   dao-tutorial/backend/scripts/deploy.js
+        new file:   dao-tutorial/frontend/.gitignore
+        new file:   dao-tutorial/frontend/components/.gitkeep
+        new file:   dao-tutorial/frontend/constants.js
+        new file:   dao-tutorial/frontend/next.config.js
+        new file:   dao-tutorial/frontend/package.json
+        new file:   dao-tutorial/frontend/pages/_appRain.jsx
+        new file:   dao-tutorial/frontend/pages/api/hello.js
+        new file:   dao-tutorial/frontend/pages/help.jsx
+        new file:   dao-tutorial/frontend/pages/index.jsx
+        new file:   dao-tutorial/frontend/public/cryptodevs/0.svg
+        new file:   dao-tutorial/frontend/public/favicon.ico
+        new file:   dao-tutorial/frontend/public/vercel.svg
+        new file:   dao-tutorial/frontend/styles/Help.module.css
+        new file:   dao-tutorial/frontend/styles/Home.module.css
+        new file:   dao-tutorial/frontend/styles/globals.css
+        new file:   dao-tutorial/package-lock.json
+        new file:   goerlifaucet.txt
+        new file:   operation_operating-the-app.txt
+        new file:   terminal-commands.txt
+
+
+C:\suv\lw3.io_dao>git commit -m "dao to invest in nfts"
+[trunk 8167c53] dao to invest in nfts
+ 46 files changed, 3728 insertions(+)
+ create mode 100644 contract-addresses
+ create mode 100644 dao-tutorial/.gitignore
+ create mode 100644 dao-tutorial/1.git.clone/HEAD
+ create mode 100644 dao-tutorial/1.git.clone/config
+ create mode 100644 dao-tutorial/1.git.clone/description
+ create mode 100644 dao-tutorial/1.git.clone/hooks/applypatch-msg.sample
+ create mode 100644 dao-tutorial/1.git.clone/hooks/commit-msg.sample
+ create mode 100644 dao-tutorial/1.git.clone/hooks/fsmonitor-watchman.sample
+ create mode 100644 dao-tutorial/1.git.clone/hooks/post-update.sample
+ create mode 100644 dao-tutorial/1.git.clone/hooks/pre-applypatch.sample
+ create mode 100644 dao-tutorial/1.git.clone/hooks/pre-commit.sample
+ create mode 100644 dao-tutorial/1.git.clone/hooks/pre-merge-commit.sample
+ create mode 100644 dao-tutorial/1.git.clone/hooks/pre-push.sample
+ create mode 100644 dao-tutorial/1.git.clone/hooks/pre-rebase.sample
+ create mode 100644 dao-tutorial/1.git.clone/hooks/pre-receive.sample
+ create mode 100644 dao-tutorial/1.git.clone/hooks/prepare-commit-msg.sample
+ create mode 100644 dao-tutorial/1.git.clone/hooks/push-to-checkout.sample
+ create mode 100644 dao-tutorial/1.git.clone/hooks/update.sample
+ create mode 100644 dao-tutorial/1.git.clone/info/exclude
+ create mode 100644 dao-tutorial/backend/.gitignore
+ create mode 100644 dao-tutorial/backend/constants.js
+ create mode 100644 dao-tutorial/backend/contracts/CryptoDevsDAO.sol
+ create mode 100644 dao-tutorial/backend/contracts/FakeNFTMarketplace.sol
+ create mode 100644 dao-tutorial/backend/contracts/Lock.sol
+ create mode 100644 dao-tutorial/backend/hardhat.config.js
+ create mode 100644 dao-tutorial/backend/package.json
+ create mode 100644 dao-tutorial/backend/scripts/deploy.js
+ create mode 100644 dao-tutorial/frontend/.gitignore
+ create mode 100644 dao-tutorial/frontend/components/.gitkeep
+ create mode 100644 dao-tutorial/frontend/constants.js
+ create mode 100644 dao-tutorial/frontend/next.config.js
+ create mode 100644 dao-tutorial/frontend/package.json
+ create mode 100644 dao-tutorial/frontend/pages/_appRain.jsx
+ create mode 100644 dao-tutorial/frontend/pages/api/hello.js
+ create mode 100644 dao-tutorial/frontend/pages/help.jsx
+ create mode 100644 dao-tutorial/frontend/pages/index.jsx
+ create mode 100644 dao-tutorial/frontend/public/cryptodevs/0.svg
+ create mode 100644 dao-tutorial/frontend/public/favicon.ico
+ create mode 100644 dao-tutorial/frontend/public/vercel.svg
+ create mode 100644 dao-tutorial/frontend/styles/Help.module.css
+ create mode 100644 dao-tutorial/frontend/styles/Home.module.css
+ create mode 100644 dao-tutorial/frontend/styles/globals.css
+ create mode 100644 dao-tutorial/package-lock.json
+ create mode 100644 goerlifaucet.txt
+ create mode 100644 operation_operating-the-app.txt
+ create mode 100644 terminal-commands.txt
+
+C:\suv\lw3.io_dao>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\suv\lw3.io_dao>git push
+Enumerating objects: 63, done.
+Counting objects: 100% (63/63), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (55/55), done.
+Writing objects: 100% (62/62), 44.57 KiB | 2.79 MiB/s, done.
+Total 62 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/suvrajeet01/lw3.io_dao.git
+   ac040df..8167c53  trunk -> trunk
+
+C:\suv\lw3.io_dao>
 
 
 
