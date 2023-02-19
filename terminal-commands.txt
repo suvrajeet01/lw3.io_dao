@@ -570,3 +570,112 @@ To https://github.com/suvrajeet01/lw3.io_dao.git
    b3f521a..2cba342  trunk -> trunk
 
 C:\suv\lw3.io_dao>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\suv>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\suv>cd lw3.io_dao
+
+C:\suv\lw3.io_dao>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dao-tutorial/frontend/pages/_appRain.jsx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\suv\lw3.io_dao>git add .
+
+C:\suv\lw3.io_dao>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   dao-tutorial/frontend/pages/_appRain.jsx
+
+
+C:\suv\lw3.io_dao>git commit -m "dao to invest in nfts"
+[trunk 44481f1] dao to invest in nfts
+ 1 file changed, 54 insertions(+)
+ create mode 100644 dao-tutorial/frontend/pages/_appRain.jsx
+
+C:\suv\lw3.io_dao>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\suv\lw3.io_dao>git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.11 KiB | 1.11 MiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/suvrajeet01/lw3.io_dao.git
+   bb6700d..44481f1  trunk -> trunk
+
+C:\suv\lw3.io_dao>
