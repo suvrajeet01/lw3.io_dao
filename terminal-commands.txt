@@ -465,3 +465,17 @@ C:\suv\lw3.io_dao>
 
 
 
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\suv\lw3.io_dao>npm audit fix --force
+npm WARN using --force Recommended protections disabled.
+npm ERR! code ENOLOCK
+npm ERR! audit This command requires an existing lockfile.
+npm ERR! audit Try creating one first with: npm i --package-lock-only
+npm ERR! audit Original error: loadVirtual requires existing shrinkwrap file
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\preda\AppData\Local\npm-cache\_logs\2023-02-19T01_03_35_822Z-debug-0.log
+
+C:\suv\lw3.io_dao>
