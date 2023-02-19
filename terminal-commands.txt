@@ -525,4 +525,48 @@ remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
 To https://github.com/suvrajeet01/lw3.io_dao.git
    cdc802b..b3f521a  trunk -> trunk
 
+C:\suv\lw3.io_dao>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal-commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\suv\lw3.io_dao>git add .
+
+C:\suv\lw3.io_dao>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   terminal-commands.txt
+
+
+C:\suv\lw3.io_dao>git commit -m "terminal-commands"
+[trunk 2cba342] terminal-commands
+ 1 file changed, 47 insertions(+)
+
+C:\suv\lw3.io_dao>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\suv\lw3.io_dao>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 543 bytes | 543.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/suvrajeet01/lw3.io_dao.git
+   b3f521a..2cba342  trunk -> trunk
+
 C:\suv\lw3.io_dao>
