@@ -1,0 +1,242 @@
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\suv>git clone https://github.com/suvrajeet01/lw3.io_dao.git
+Cloning into 'lw3.io_dao'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+C:\suv>cd lw3.io_dao
+
+C:\suv\lw3.io_dao>node -v
+v16.19.0
+
+C:\suv\lw3.io_dao>npx @startertemp/nextjs-hardhat DAO-Tutorial
+Installing web3modal project
+----- Downloading project template to dao-tutorial
+Cloning into 'dao-tutorial'...
+remote: Enumerating objects: 46, done.
+remote: Counting objects: 100% (46/46), done.
+remote: Compressing objects: 100% (37/37), done.
+Receiving objects:  93% (43/46)sed 36 (delta 2), pack-reused 0Receiving objects:  89% (41/46)
+Receiving objects: 100% (46/46), 25.19 KiB | 159.00 KiB/s, done.
+Resolving deltas: 100% (3/3), done.
+----- Detected Platform win32
+----- Installing Web3Modal
+----- Installing Frontend dependancies
+
+added 121 packages, and audited 122 packages in 30s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+----- Installing Backend dependancies
+npm WARN deprecated request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated uuid@2.0.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+
+added 704 packages, and audited 705 packages in 2m
+
+121 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (5 high, 3 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+----- Clearing out Installation Directories
+        1 file(s) moved.
+----- Initialising Git
+Initialized empty Git repository in C:/suv/lw3.io_dao/dao-tutorial/.git/
+------ Successfully Installed All!
+cd frontend && npm run dev
+--<3- Made by Love with Startertemp and LearnWeb3DAO
+
+C:\suv\lw3.io_dao>cd dao-tutorial
+
+C:\suv\lw3.io_dao\dao-tutorial>npm update
+
+up to date in 105ms
+
+C:\suv\lw3.io_dao\dao-tutorial>cd backend
+
+C:\suv\lw3.io_dao\dao-tutorial\backend>npx hardhat compile
+Compiled 2 Solidity files successfully
+
+C:\suv\lw3.io_dao\dao-tutorial\backend>npx hardhat run scripts/deploy.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FakeNFTMarketplace deployed to:  0x34F2cF53F3E79B33eAc62B7e4EbFFFC58f04678A
+CryptoDevsDAO deployed to:  0x7Bd3169B37F31a6E923f24c20BCbfdcebBCf31AB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\suv\lw3.io_dao\dao-tutorial\backend>cd ..\frontend
+
+C:\suv\lw3.io_dao\dao-tutorial\frontend>npm run dev
+
+> frontend@1.0.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+event - compiled client and server successfully in 2.4s (159 modules)
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 7.9s (330 modules)
+
+C:\suv\lw3.io_dao\dao-tutorial\frontend>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
